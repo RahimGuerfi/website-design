@@ -1,0 +1,18 @@
+@media screen and (max-width: 915px) {
+    .color-panel {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .font-panel,
+    .text-panel {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .color-panel {
+        width: 100%;
+    }
+}

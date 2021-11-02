@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Header and Nav */
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: #FFF;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 4px 4px -4px rgb(0 0 0 / 12%);
+}
+
+nav {
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+    box-shadow: 0 .15rem 0.25rem rgba(0, 0, 0, .15);
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    color: #034df4;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    margin: -10px;
+}
+
+nav li svg {
+    vertical-align: bottom;
+}
+
+
+/* Main */
+
+main {
+    padding-top: 108px;
+}
+
+
+/* Container */
+
+.container {
+    background-color: #FFF;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #034df4;
+    font-weight: 600;
+}
+
+
+/* Colors container */
+
+.color-container {
+    width: 100%;
+    padding: 0 auto;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+}
+
+.color-label {
+    font-weight: 600;
+}
+
+.white-text {
+    color: #FFF;
+}
+
+.yellow {
+    background-color: #FEF200;
+}
+
+.mellow {
+    background-color: #F7DF7D;
+}
+
+.cyber {
+    background-color: #FFD302;
+}
+
+.blue {
+    background-color: #0017F9;
+}
+
+.denim {
+    background-color: #131E3A;
+}
+
+.pigeon {
+    background-color: #7285A5;
+}
+
+.pink {
+    background-color: #F910BE;
+}
+
+.ruby {
+    background-color: #E01161;
+}
+
+.ultra {
+    background-color: #FF6EFD;
+}
+
+
+/* Fonts, Text container */
+
+.text-container,
+.font-container {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.text-panel,
+.font-panel {
+    display: flow-root;
+    width: 50%;
+    background-color: rgba(3, 77, 244, 0.7);
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+}
+
+.text-panel h1 {
+    color: #000;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.text-panel h2 {
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.text-panel p {
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.font-label {
+    font-size: 20px;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro';
+}
+
+.nunito-sans {
+    font-family: 'Nunito Sans';
+}
+
+.poppins {
+    font-family: 'Poppins';
+}
+
+.raleway {
+    font-family: 'Raleway';
+}
